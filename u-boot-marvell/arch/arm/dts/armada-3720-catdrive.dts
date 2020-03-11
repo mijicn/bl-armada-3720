@@ -38,7 +38,8 @@
 
 &eth0 {
 	status = "okay";
-	phy-mode = "sgmii";
+	phy-mode = "rgmii";
+	phy-mode = "rgmii-id";
 	phy = <&ethphy0>;
 	pinctrl-names = "default";
 	pinctrl-0 = <&ptp_pins &smi_pins>;
